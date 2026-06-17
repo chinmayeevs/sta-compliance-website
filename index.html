@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shree Thirumala Associates Pvt. Ltd.</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#ffffff;
+color:#222;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:white;
+box-shadow:0 2px 15px rgba(0,0,0,.08);
+z-index:1000;
+}
+
+.navbar{
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:26px;
+font-weight:800;
+color:#071B44;
+}
+
+.nav-links{
+display:flex;
+gap:25px;
+}
+
+.nav-links a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(7,27,68,.85),rgba(7,27,68,.85)),
+url('https://images.unsplash.com/photo-1565008447742-97f6f38c985c?q=80&w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+color:white;
+}
+
+.hero-content{
+max-width:950px;
+}
+
+.hero h1{
+font-size:64px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:35px;
+}
+
+.btn{
+padding:15px 30px;
+border:none;
+border-radius:50px;
+font-weight:600;
+text-decoration:none;
+display:inline-block;
+margin:8px;
+transition:.3s;
+}
+
+.btn-primary{
+background:#D4A017;
+color:black;
+}
+
+.btn-primary:hover{
+transform:translateY(-3px);
+}
+
+.btn-secondary{
+background:white;
+color:#071B44;
+}
+
+.section{
+padding:100px 8%;
+}
+
+.section-title{
+font-size:42px;
+text-align:center;
+margin-bottom:60px;
+color:#071B44;
+}
+
+.stats{
+background:#071B44;
+color:white;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+text-align:center;
+}
+
+.stat h2{
+font-size:55px;
+color:#D4A017;
+}
+
+.services{
+background:#f7f9fc;
+}
+
+.services-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:#071B44;
+margin-bottom:15px;
+}
+
+.card ul{
+padding-left:20px;
+}
+
+.card li{
+margin-bottom:8px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.why{
+background:#071B44;
+color:white;
+padding:30px;
+border-radius:18px;
+}
+
+.contact{
+background:#f7f9fc;
+text-align:center;
+}
+
+.contact-box{
+background:white;
+max-width:700px;
+margin:auto;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+footer{
+background:#071B44;
+color:white;
+padding:50px;
+text-align:center;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+.nav-links{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="navbar">
+
+<div class="logo">
+STA
+</div>
+
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#why">Why Us</a>
+<a href="#contact">Contact</a>
+</div>
+
+</div>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Industrial, Labour Law & Statutory Compliance Experts</h1>
+
+<p>
+Complete solutions for Factory Compliance, Labour Law,
+PF, ESI, Government Registrations, Contract Labour
+Management, Industrial Relations and Compliance Audits.
+</p>
+
+<a href="#contact" class="btn btn-primary">
+Request Free Consultation
+</a>
+
+<a href="tel:+919108900230" class="btn btn-secondary">
+Call Now
+</a>
+
+</div>
+
+</section>
+
+<section class="section stats">
+
+<div class="stats-grid">
+
+<div class="stat">
+<h2>100%</h2>
+<p>Compliance Focus</p>
+</div>
+
+<div class="stat">
+<h2>24/7</h2>
+<p>Support</p>
+</div>
+
+<div class="stat">
+<h2>500+</h2>
+<p>Businesses Assisted</p>
+</div>
+
+<div class="stat">
+<h2>10+</h2>
+<p>Industries Served</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<h2 class="section-title">
+About Shree Thirumala Associates
+</h2>
+
+<p style="max-width:900px;margin:auto;text-align:center;font-size:18px;">
+Shree Thirumala Associates Pvt. Ltd. provides professional
+industrial compliance, labour law compliance, PF & ESI consultancy,
+government registrations, industrial relations support and statutory audits.
+We help businesses remain compliant, reduce legal risks and focus on growth.
+</p>
+
+</section>
+
+<section id="services" class="section services">
+
+<h2 class="section-title">
+Our Services
+</h2>
+
+<div class="services-grid">
+
+<div class="card">
+<h3>Industrial & Factory Compliance</h3>
+<ul>
+<li>Factory License Registration</li>
+<li>Factory Plan Approval</li>
+<li>Factory Layout Approval</li>
+<li>Compliance Management</li>
+<li>Industrial Safety Compliance</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Labour Law Services</h3>
+<ul>
+<li>Labour Law Compliance</li>
+<li>Contract Labour Act Compliance</li>
+<li>Shops & Establishment Registration</li>
+<li>Statutory Registers</li>
+<li>Inspection Support</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>PF & ESI Consultancy</h3>
+<ul>
+<li>PF Registration</li>
+<li>ESI Registration</li>
+<li>Returns Filing</li>
+<li>Audit Support</li>
+<li>Notice Handling</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Contract Labour Management</h3>
+<ul>
+<li>Labour Deployment</li>
+<li>Manpower Supply</li>
+<li>Contractor Licensing</li>
+<li>Payroll Compliance</li>
+<li>Workforce Management</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Government Registrations</h3>
+<ul>
+<li>KSPCB Approvals</li>
+<li>Consent To Establish</li>
+<li>Consent To Operate</li>
+<li>FSSAI Registration</li>
+<li>Trade Registrations</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Compliance Audit Services</h3>
+<ul>
+<li>Labour Audit</li>
+<li>Factory Audit</li>
+<li>PF Audit</li>
+<li>Risk Assessment</li>
+<li>Compliance Monitoring</li>
+</ul>
+</div>
+
+</div>
+
+</section>
+
+<section id="why" class="section">
+
+<h2 class="section-title">
+Why Choose STA
+</h2>
+
+<div class="why-grid">
+
+<div class="why">
+<h3>Expert Compliance Team</h3>
+<p>Dedicated professionals handling complex statutory obligations.</p>
+</div>
+
+<div class="why">
+<h3>Inspection Support</h3>
+<p>Assistance during labour and statutory inspections.</p>
+</div>
+
+<div class="why">
+<h3>End-To-End Solutions</h3>
+<p>Registrations, approvals, audits and ongoing compliance.</p>
+</div>
+
+<div class="why">
+<h3>Risk Reduction</h3>
+<p>Helping businesses avoid penalties and legal complications.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section contact">
+
+<h2 class="section-title">
+Contact Us
+</h2>
+
+<div class="contact-box">
+
+<h3>Shree Thirumala Associates Pvt. Ltd.</h3>
+
+<br>
+
+<p>📞 +91 91089 00230</p>
+
+<p>✉ ashwijahrconsultancy@gmail.com</p>
+
+<p>📍 Bengaluru, Karnataka</p>
+
+<br>
+
+<a href="tel:+919108900230" class="btn btn-primary">
+Book Consultation
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Shree Thirumala Associates Pvt. Ltd.</h3>
+
+<p>
+Industrial Compliance • Labour Law • PF • ESI • Government Approvals
+</p>
+
+</footer>
+
+</body>
+</html>
